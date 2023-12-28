@@ -3,7 +3,7 @@
 16.0以上的Node.js
 
 ```
-npm init vue@next  //创建一个vue应用
+npm init vue@next  //创建一个vue应用或者vue create 项目名选择3
 
 npm  install  //安装依赖
 

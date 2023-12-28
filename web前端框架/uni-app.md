@@ -21,11 +21,12 @@
 ## 创建项目
 
 ### HBuilderX创建
+直接创建
 
 ### 命令行创建
 
 ```powershell
-//创建
+//创建vue2的uniapp
 vue create -p dcloudio/uni-preset-vue my-project
 //运行
 npm run dev:%PLATFORM%
@@ -72,9 +73,23 @@ text相当于span标签
 
 3. 创建uniapp页面选择分包
 
+4. 跳转
+
+   ```
+   uni.navigateTo({
+   url: '/subpkg/search/search'
+   })
+   ```
+
+   
 
 
 
+## 引入uni-ui
+
+[官方文档](https://uniapp.dcloud.net.cn/component/uniui/quickstart.html)
+
+可以通过npm安装
 
 ## 发布
 
@@ -90,12 +105,6 @@ pnpm build:mp-weixin
 
 2. 微信开发者工具`上传`
 3. 微信公众平台`提交审核`
-
-
-
-
-
-
 
 
 
